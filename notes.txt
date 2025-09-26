@@ -6,3 +6,6 @@ peer to peer communication using webrtc
 WebRTC is built over UDP. 
 1. for the browser support. browsers have to add webRTC 
 2. UDB can fallback for TCP 
+
+FRONTEND : React + WebRTC APIs 
+BACKEND : Realtime server/ Signalling server (Node JS)
