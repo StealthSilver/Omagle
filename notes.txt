@@ -9,3 +9,8 @@ WebRTC is built over UDP.
 
 FRONTEND : React + WebRTC APIs 
 BACKEND : Realtime server/ Signalling server (Node JS)
+
+FRONTEND :
+
+
+BACKEND : socket.io
