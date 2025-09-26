@@ -1,16 +1,14 @@
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 import { Landing } from "./components/Landing";
-import { Room } from "./components/Room";
+import "./index.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/room" element={<Room />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="app">
+      <div className="card">
+        <Landing />
+      </div>
+    </div>
   );
 }
 
