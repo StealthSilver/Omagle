@@ -1,0 +1,8 @@
+OMAGLE 
+
+omagle is easier to build than google meet because there are multiple peer connections. in omagle there is peer to peer connection. 
+peer to peer communication using webrtc 
+
+WebRTC is built over UDP. 
+1. for the browser support. browsers have to add webRTC 
+2. UDB can fallback for TCP 
