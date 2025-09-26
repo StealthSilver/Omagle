@@ -1,14 +1,14 @@
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Landing } from "./components/Landing";
-import "./index.css";
+import { Room } from "./components/Room";
 
 function App() {
   return (
-    <div className="app">
-      <div className="card">
-        <Landing />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
